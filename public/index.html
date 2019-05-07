@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NASA Explorer</title>
+    <link rel="stylesheet" href="/public/style.css">
+  </head>
+  <body>
+    <form class="searchForm" action="" method="post">
+      <h1 class="formHeader" id="formHeader"></h1>
+      <div class="startDate">
+        <label for="start">Start Date:</label>
+        <input type="text" id="sDate" name="start_date" value="">
+      </div>
+      <div class="endDate">
+        <label for="end">End Date:</label>
+        <input type="text" id="eDate" name="end_date" value="">
+      </div>
+      <div class="button">
+        <button type="submit" name="button">Search for Asteroids</button>
+      </div>
+    </form>
+
+    <section class="result-container">
+
+    </section>
+    <script type="text/javascript" src="/public/index.js"></script>
+  </body>
+</html>

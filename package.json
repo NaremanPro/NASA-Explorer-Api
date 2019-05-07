@@ -1,0 +1,30 @@
+{
+  "name": "nasa-explorer-api",
+  "version": "1.0.0",
+  "description": "Documentation URL: </br> https://api.nasa.gov/index.html </br> https://api.nasa.gov/api.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./tests/test.js | tap-spec",
+    "server": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaremanPro/NASA-Explorer-Api.git"
+  },
+  "author": "Nareman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaremanPro/NASA-Explorer-Api/issues"
+  },
+  "homepage": "https://github.com/NaremanPro/NASA-Explorer-Api#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "request": "^2.88.0",
+    "supertest": "^4.0.2"
+  }
+}
